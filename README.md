@@ -295,3 +295,4 @@ This lets you verify the judge is calibrated correctly without making any BigQue
 - **Per-question table** — question, agent answer preview, score badge, and full judge breakdown (relevance, groundedness, completeness, reasoning)
 
 A timestamped JSON version is also saved alongside the HTML for programmatic use.
+
