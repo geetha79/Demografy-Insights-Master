@@ -133,6 +133,13 @@ Built the Streamlit app UI, authentication flow, and tier-based usage limits
 Developed the evaluation suite (golden dataset, LLM-as-judge, HTML reports)
 Handled production edge cases (timeouts, empty results, invalid users, inactive accounts)
 
+## Business Impact
+
+Enabled non-technical users to query 10+ demographic KPIs across all Australian SA2 suburbs in plain English
+Removed the SQL bottleneck by auto-generating safe, read-only BigQuery queries
+Supported Demografy’s subscription model with Free/Basic/Pro tiers enforced in real time
+Provided an evaluation and observability layer (LLM judge + LangSmith) for ongoing quality monitoring
+
 ## How Authentication & Tiers Work
 
 1. Users log in with a **User ID + email** pair that is verified against BigQuery.
