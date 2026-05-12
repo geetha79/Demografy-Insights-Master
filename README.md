@@ -106,7 +106,18 @@ flowchart TD
     Judge -->|"score + breakdown"| Reports
     Judge -->|"judge prompt"| Gemini
 ```
+---
+## My Role
 
+Designed and implemented the LangChain SQL agent and prompt library
+
+Integrated Gemini 2.5 Flash-Lite with BigQuery for deterministic SQL generation
+
+Built the Streamlit app UI, authentication flow, and tier-based usage limits
+
+Developed the evaluation suite (golden dataset, LLM-as-judge, HTML reports)
+
+Handled production edge cases (timeouts, empty results, invalid users, inactive accounts)
 ---
 
 ## Tech Stack
